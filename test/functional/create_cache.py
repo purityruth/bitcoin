@@ -23,5 +23,6 @@ class CreateCache(BitcoinTestFramework):
     def run_test(self):
         pass
 
+# Creating cache if name is main
 if __name__ == '__main__':
     CreateCache(__file__).main()
